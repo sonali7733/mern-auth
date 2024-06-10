@@ -1,0 +1,10 @@
+node_modules
+.env
+
+# git init
+# git remote add origin GIT_URL
+# https://github.com/sonali7733/mern-auth.git
+# git add .
+# git commit -m "initial setup"
+
+# git push origin master
