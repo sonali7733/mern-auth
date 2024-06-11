@@ -1,4 +1,5 @@
 const asyncHandler = require("express-async-handler")
+const Account = require("../models/Account")
 
 exports.credit = asyncHandler(async (req, res) => {
     await Account.create({ ...req.body, type: "credit" })
