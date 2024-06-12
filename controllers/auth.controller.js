@@ -24,7 +24,7 @@ exports.loginUser = async (req, res) => {
         if (!verify) {
             return res.status(400).json({ message: "Password Do Not Match" })
         }
-        res.json({ message: "Login Success" })
+        res.json({ message: "Login Success", result })
     } catch (error) {
         res.status(400).json({ message: "Error", error: error.message })
     }
